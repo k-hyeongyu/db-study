@@ -47,7 +47,7 @@ select dcode, dname from dept3;   --컬럼의 원하는 부분만 복사 및 생
 
 select * from dept4;
 
---컬ㄹ럼 구조만 동일하게 테이블 복사 (데이터는 제외)
+--컬럼 구조만 동일하게 테이블 복사 (데이터는 제외)
 create table dept5
 as
 select * from dept2
