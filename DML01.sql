@@ -97,6 +97,19 @@ where bonus is not null;
 commit; 확정 --커밋 실행하면 롤백 불가능함
 rollback; 되돌리기 (취소)
 
+delete 데이터 삭제 (rollback 가능 : 자동 commit; 이 아닌 경우)
+
+delete from 테이블명
+where 조건;
+
+select * from dept3;
+
+select *
+--delete
+from dept3
+where dcode = 1011;
+
+commit;
 
 
 
