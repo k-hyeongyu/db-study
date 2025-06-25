@@ -29,8 +29,3 @@ where tname like '%dept%';
 
 select * from tab
 where tname like '%menu%'; 
-
-
-
-
-
